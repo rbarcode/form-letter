@@ -5,7 +5,8 @@ function getUserName() {
 }
 
 function clearUserName() {
-  document.querySelector("#inputName").innerText = null;
+  // Changed innerText value from "null" to "____" to preserve the original blank-underline. Can use "null" if you prefer.
+  document.querySelector("#inputName").innerText = "____";
 }
 
 function clearFormSubmissionEventHandler() {
